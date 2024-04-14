@@ -181,3 +181,6 @@ h1 {
 .timeline__arrow[aria-expanded="true"] .timeline__arrow-icon {
     transform: rotate(0);
 }
+footer{
+    text-align: right;
+}

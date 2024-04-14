@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="teste">Quiz</h1>
+                </div>
+       </header>
+       <p id="intro">Nesse quiz você podera entender qual pode ser o melhor tipo de investimento para você.</p><br><br>
+       <div>
+        <h1>Quiz</h1>
+    </div>
+    <div id="quiz">
+        <div class="question"><p>1. Você quer um investimento de longo ou curto prazo?</p></div>
+        <ul class="options">
+            <li><input type="radio" name="q1" value="a"> <p>Curto</p></li>
+            <li><input type="radio" name="q1" value="b"> <p>Longo</p></li>
+            <li><input type="radio" name="q1" value="c"> <p>Estou Indeciso</p></li>
+        </ul>
+        <div class="question"><p>2. Você quer um investimento de custo alto ou baixo?</p></div>
+        <ul class="options">
+            <li><input type="radio" name="q2" value="a"> <p>Baixo</p></li>
+            <li><input type="radio" name="q2" value="b"> <p>Alto</p></li>
+            <li><input type="radio" name="q2" value="c"> <p>Estou Indeciso</p></li>
+        </ul>
+        <button onclick="submitQuiz()">Submit</button>
+    </div>
+
+    <div id="result"></div>
+</body>
+<script src="javascript/quiz.js"></script>
+</html>

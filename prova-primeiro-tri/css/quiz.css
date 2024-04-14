@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
 }
 header{
-    background-image: url('../img/LCI-LCA.png');
+    background-image: url('../img/quiz.png');
     width:100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,10 +25,7 @@ header{
 h1{
     color: white;
     font-size: 50px;
-}
-h2{
-    color: white;
-    font-size: 40px;
+    text-align: center;
 }
 p{
     color:white;
@@ -49,4 +46,33 @@ header .container{
     align-items: center;
     gap: 10px;
     text-align: center;
+}
+.button-quiz{
+	background-color: #267679; 
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	display: block;
+	margin: 20px auto;
+}
+button:hover.quiz{
+	background-color: #45a049;
+}
+.question{
+	margin-bottom: 20px;
+}
+.options{
+	list-style-type: none;
+	padding: 0;
+}
+.options li{
+	margin-bottom: 10px;
+}
+#result{
+	text-align: center;
+	margin-top: 20px;
+	color: #21e6ec;
+    font-size: 50px;
 }
