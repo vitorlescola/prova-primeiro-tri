@@ -1,0 +1,87 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background: radial-gradient(circle at 10% 20%, rgb(26, 178, 203) 0%, rgb(0, 102, 161) 90.1%);
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    text-align: center;
+    border-radius: 0 0 85% 85% / 30%;
+    overflow: hidden;
+}
+#intro{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    font-size: 2em;
+    margin: 0 0 3rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+footer{
+    text-align: right;
+    color: white;
+}
+.cointainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  #planeje{
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 60px;
+    margin: 4px 3px;
+    text-align: top;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%); 
+    max-width: 100% auto;
+    max-height: 100% auto;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    border-style: hidden;
+  }
+  #aprenda{
+    border-radius: 20px;
+    justify-content: left;
+    align-items: left;
+    padding: 100px 60px;
+    margin: 4px 3px;
+    text-align: top;
+    left: 100%;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%); 
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    border-style: hidden;
+  }
+  button{
+    cursor: pointer;
+  }
+  button:hover{
+    cursor: pointer;
+  background-color: chocolate;
+  transition: transform .2s;
+  transform: scale(1.1);
+  }
