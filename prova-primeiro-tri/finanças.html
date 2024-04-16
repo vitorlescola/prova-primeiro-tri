@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/finanças.css">
+    <title>Planeje suas Finanças</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Planeje suas finanças com sabedoria</h1>
+            </div>
+        </header>
+        <h1>Introdução</h1>
+        <p id="intro">Bem-vindo a parte do site "Planeje suas finanças" (nome super criativo), ... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quidem tempora cupiditate assumenda ut eveniet dolor ipsa. Blanditiis culpa veniam ad, eos ab similique, fuga, natus expedita in eaque <perspiciatis class="lo"></perspiciatis></p>
+        <svg display="none">
+            <symbol id="arrow">
+                <polyline points="7 10,12 15,17 10" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+            </symbol>
+        </svg>
+        <h1>Planeje cada etapa da suas finanças</h1>
+        <div id="timeline" class="timeline">
+            <div class="btn-group">
+                <button class="btn" type="button" data-action="expand">Abrir todos</button>
+                <button class="btn" type="button" data-action="collapse">Fechar todos</button>
+            </div>
+            <div class="timeline__item">
+                <div class="timeline__item-header">
+                    <button class="timeline__arrow" type="button" id="item1" aria-labelledby="item1-name" aria-expanded="false" aria-controls="item1-ctrld" aria-haspopup="true" data-item="1">
+                        <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                            <use href="#arrow" />
+                        </svg>
+                    </button>
+                    <span class="timeline__dot"></span>
+                    <span id="item1-name" class="timeline__meta">
+                        <strong class="timeline__title">Transações bancarias</strong>
+                    </span>
+                </div>
+                <div class="timeline__item-body" id="item1-ctrld" role="region" aria-labelledby="item1" aria-hidden="true">
+                    <div class="timeline__item-body-content">
+                        <p class="timeline__item-p">Para ajudar você planejar suas finanças use esse simulador de <strong><a href="bancario.html">transações bancarias</a></strong>, onde você vai poder salvar um valor na sua "conta" e depois poderá adicionar ou remover dinheiro dessa conta, e você também terá ajuda do site, que vai avisar você se a Transação que deseja fazer te deixara no negativo.</p>
+                    </div>
+                </div>
+            </div>
+    <script src="javascript/finanças.js"></script>
+</body>
+</html>

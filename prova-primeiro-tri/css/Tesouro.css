@@ -46,3 +46,10 @@ header .container{
     gap: 10px;
     text-align: center;
 }
+#video{
+    text-align: center;
+}
+video{
+    left: 750px;
+    position: relative;
+}

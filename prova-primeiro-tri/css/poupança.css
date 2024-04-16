@@ -49,3 +49,7 @@ header .container{
 #calculadora{
     text-align: center;
 }
+video{
+    left: 750px;
+    position: relative;
+}
