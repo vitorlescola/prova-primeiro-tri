@@ -1,10 +1,10 @@
-function submitQuiz() {
+function submitQuiz() {  //função que faz o quiz
 	const q1 = document.querySelector('input[name="q1"]:checked').value;
 	const q2 = document.querySelector('input[name="q2"]:checked').value;
 
 	let result = '';
 
-	if (q1 === 'a' && q2 === 'a') {
+	if (q1 === 'a' && q2 === 'a') {  //respostas
 		result = 'Tesouro Selic';
 	}else if (q1 === 'a' && q2 === 'b') {
 		result = 'CDB';

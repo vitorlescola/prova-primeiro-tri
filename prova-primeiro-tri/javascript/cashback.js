@@ -1,4 +1,4 @@
-function calculateCashback() {
+function calculateCashback() {  //função que calcula o cashback
     var quantidade = parseFloat(document.getElementById("quantidade").value);
     var porcentagem = parseFloat(document.getElementById("porcentagem").value);
 

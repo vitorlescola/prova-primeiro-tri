@@ -1,16 +1,16 @@
 let savedValue = 0;
 
-function saveValue() {
+function saveValue() {   //fução que salva o valor
     savedValue = parseFloat(document.getElementById("inputValue").value);
     document.getElementById("result").innerText = "Valor na conta: " + savedValue.toFixed(2);
 }
 
-function performOperation() {
+function performOperation() {   //função que peroma a operação
     const operação = document.getElementById("operação").value;
     const changeAmount = parseFloat(document.getElementById("changeAmount").value);
 
     if (isNaN(changeAmount)) {
-        alert("Please enter a valid number.");
+        alert("Porfavor insira um número valido.");
         return;
     }
 

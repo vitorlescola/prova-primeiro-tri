@@ -5,10 +5,11 @@
     padding: 0;
 }
 body{
-    background-color: black;
+  background: #f6f5f5; 
+  font-family:Arial, Helvetica, sans-serif;
 }
 header{
-    background: radial-gradient(circle at 10% 20%, rgb(26, 178, 203) 0%, rgb(0, 102, 161) 90.1%);
+  background: #3bb4c1; 
     width:100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,28 +17,30 @@ header{
     text-align: center;
     border-radius: 0 0 85% 85% / 30%;
     overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
 }
 #intro{
     justify-content: center;
     align-items: center;
     gap: 10px;
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 p{
-    color: white;
     font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 h1{
     font-size: 2em;
     margin: 0 0 3rem;
     padding-top: 1.5rem;
     text-align: center;
-    color: white;
     font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 footer{
     text-align: right;
-    color: white;
+    margin-top:175px;
 }
 .cointainer{
     display: flex;
@@ -85,3 +88,25 @@ footer{
   transition: transform .2s;
   transform: scale(1.1);
   }
+.retorno{
+    word-spacing: 20px;
+    margin-bottom: -40px;
+}
+a:link {
+  background: #3bb4c1;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  background: #3bb4c1;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #048998; 
+  background-color: transparent;
+  text-decoration: underline;
+}
+a{
+  color: #3bb4c1;
+}
