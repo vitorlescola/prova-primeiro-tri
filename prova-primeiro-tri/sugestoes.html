@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sugestoes.css">
+    <title>Sugestões Financeiras</title>
+</head>
+<body>
+    <div class="container">
+        <h4><p class="retorno"><a href="index.html">Menu</a> <a href="mundo-dos-investimentos.html">Mundo_dos_investimentos</a> <a href="finanças.html">Finanças</a></p></h4>
+        <h1>Sugestões Financeiras</h1>
+        <p>Insira algumas informações sobre seu comportamento financeiro:</p>
+        <label for="income">Renda Mensal (em reais):</label><br>
+        <input type="number" id="income" min="0"><br><br>
+        <label for="expenses">Despesas Mensais (em reais):</label><br>
+        <input type="number" id="expenses" min="0"><br><br>
+        <button onclick="getSuggestions()">Obter Sugestões</button>
+        <div id="suggestion"></div>
+    </div>
+    <script src="javascript/sugestoes.js"></script>
+</body>
+</html>

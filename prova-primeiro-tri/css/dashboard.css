@@ -1,37 +1,23 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    background: #3bb4c1;
     margin: 0;
     padding: 0;
-    background: #3bb4c1;
 }
-
 .container {
-    max-width: 400px;
-    margin: 50px auto;
+    max-width: 600px;
+    height: 450px;
+    margin: 20px auto;
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: #f6f5f5;
-    height: 540px;
 }
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input[type="number"] {
-    width: 90%;
-    padding: 5px;
-    margin-bottom: 20px;
-}
-
-button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-#result {
-    margin-top: 20px;
+canvas {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
 }
 a:link {
     background: #3bb4c1;

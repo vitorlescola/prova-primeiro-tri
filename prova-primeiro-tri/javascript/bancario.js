@@ -14,11 +14,11 @@ function performOperation() {   //função que peroma a operação
         return;
     }
 
-    if (operação === "add") {
+    if (operação === "add") {   //selecionar adição
         savedValue += changeAmount;
-    } else if (operação === "subtract") {
+    } else if (operação === "subtract") {  //selecionar suntração
         savedValue -= changeAmount;
-        if (savedValue <= 0) {
+        if (savedValue <= 0) {  //avisa se der 0 ou menos
             alert("Cuidado, você vai entrar no negativo!.");
         }
     }

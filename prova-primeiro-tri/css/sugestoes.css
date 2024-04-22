@@ -4,34 +4,28 @@ body {
     padding: 0;
     background: #3bb4c1;
 }
-
 .container {
-    max-width: 400px;
-    margin: 50px auto;
-    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: #f6f5f5;
-    height: 540px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-label {
-    display: block;
-    margin-bottom: 10px;
+h1 {
+    text-align: center;
+    color: #333;
 }
-
-input[type="number"] {
-    width: 90%;
-    padding: 5px;
+p {
     margin-bottom: 20px;
+    color: #666;
 }
-
-button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-#result {
-    margin-top: 20px;
+#suggestion {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3bb4c1;
 }
 a:link {
     background: #3bb4c1;
@@ -54,4 +48,7 @@ a{
 .retorno {
     word-spacing: 20px;
     margin-bottom: -20px;
+}
+h4{
+    text-align: center;
 }
